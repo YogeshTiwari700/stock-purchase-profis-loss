@@ -3,5 +3,48 @@ text-align: center;
 }
 label {
     display: block;
-    padding: 1.5rem;
+    padding: 1rem;
+}
+
+
+.background-image {
+    background-image: url("/image/share2.jpg");
+    background-size: cover;
+    height: 100vh;
+ }
+
+ #container {
+    margin:0%;
+    padding: 1rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 2rem;
+ }
+#initial-price{
+    border: 3px solid black;
+    padding: .5rem;
+
+}
+#stock-quantity{
+    border: 3px solid black;
+    padding: .5rem
+}
+#current-price {
+    border: 3px solid black;
+    padding: .5rem;
+
+}
+#check-btn {
+    border: 3px solid black;
+    padding: .5rem;
+    margin: bottom 1rem;
+    font-weight: bolder;
+}
+
+#output-box {
+    padding: .3rem;
+    margin-bottom: 4rem;
+    font-size: x-large;
+    color: red;
+
 }

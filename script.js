@@ -23,7 +23,7 @@ function calculateProfitAndLoss(initial,quantity,current){
 
         var lossPercentage=( (loss / (initial*quantity))*100);
 
-        outPutBox.innerHTML="Hey  your loss is" + loss + "and the Percent is" +lossPercentage+"%";
+        outPutBox.innerHTML=" Hey  your loss is " + loss  +  " and the Percent is  " +  lossPercentage + "%";
 
     }else if (current>initial){
 
@@ -31,7 +31,7 @@ function calculateProfitAndLoss(initial,quantity,current){
 
         var profitPercentage=( (profit /(initial*quantity))*100);
 
-        outPutBox.innerHTML="hey your profit is" + profit + "and the Percent is" + profitPercentage+"%";
+        outPutBox.innerHTML=" Hey your profit is " +  profit  + " and the Percent is " + profitPercentage +"%";
   } else {
 
     outPutBox.innerText="no profit no gain no loss no pain";

@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+   <div class="background-image">
     <h1>Profit And Loss Stocks Calculater</h1>
-    <label for="initial-price">Initial Price <input type="number" placeholder="enter the initial price here" id="initial-price"></label>
-    <label for="stocks">Quantity Of Stocks
-    <input type="number" placeholder="enter the number of stocks" id="stock-quantity"></label>
-    <br>
-    <label for="current-price">Current Price
-    <input type="number" placeholder="enter the current price of stocks" id="current-price"></label>
-    <button id="check-btn">Check</button>
+    <div id="container">
+        
+        <label for="initial-price"> <strong> Initial Price</strong> <input type="number" placeholder="enter the initial price here" id="initial-price"></label>
+        <label for="stocks"> <strong> Quantity Of Stocks</strong>  
+        <input type="number" placeholder="enter the number of stocks" id="stock-quantity"></label>
+        <br>
+        <label for="current-price"> <strong>Current Price</strong> 
+        <input type="number" placeholder="enter the current price of stocks" id="current-price"></label>
+        <button id="check-btn">Check</button>
+    </div>
     <div id="output-box"></div>
-
+</div>
     <script src="/script.js"></script>
 </body>
 </html>
